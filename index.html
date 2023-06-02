@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio</title>
+  </head>
+
+  <body>
+    <!-- AS tags do <H1> até o <H6> servem para títulos e subtítulos, sendo que muda em cada uma é seu tamanho de fonte
+        Para criar uma aba de navegação pode-se usar como se fosse um link através do <A>
+        essa tag serve para criar um menu de navegação <nav>
+        A tag <header> serve para criar um cabeçalho e trabalhar com partes do site 
+        <li> define a lista, sendo necessário colocar em cada item da lista 
+        <ul> Serve para indicar uma lista não ordenada
+        A tag <BR> serve para criar uma quebra de texto 
+        Tag para criar paragrafo <P>
+        <Strong> deixa texto em negrito
+        <Em> deixa em itálico
+        <U> deixa com sublinhado
+        A tag HR serve para separar elementos, não deve ser usado dentro de itens
+        <ol> serve para criar uma lista ordenada
+        Para criar uma sublista dentro de uma lista, usa uma UL depois a LI e abaixo da LI colocamos outra UL depois indiciamos a nossa sublista com LI novamente
+        O código <A> serve para colocar links no site, para colocar nome no lugar do link colocamos o nome que desejamos entre o fechamento da Tag <A> e do fechamento do link
+        A tag <target="_blank"> faz com que o Link abra em outra página e não sobrepõe a que esta vinculado o link
+        <Footer> tag para Rodapé
+        <img> Essa tag serve para colocarmos imagens dentro do site, o "src="" é onde colocamos o nosso link com "./" O alt é quando a imagem não carrega e oq vai aparecer ao invês dela, 
+            no title é o que vai aparecer quando vc passa o mouse em cima da imagem
+        <Span> Essa tag serve para destacar
+    -->
+    <header id="Header">
+      <h2 id="cabecalho">&lt/&gt Programador web</h2>
+      <nav class="nav">
+        <ul>
+          <li><a style="color: white; text-decoration: underline;" href="index.html">Home</a></li>
+          <li><a href="Sobre.html">sobre</a></li>
+          <li><a href="Contato.html">Meu contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 >Olá Mundo!</h1>
+      <h2 id="titulo"> Página inicial
+      </h2>
+      
+<hr id="linha-de-cima">
+
+      <h2 class="titulo-lista"> Lista não ordenada</h2>
+      <ul id="Coffee">
+        <li>Pó de café</li>
+        <li>Água Quente</li>
+        <li>copo</li>
+        <li>
+          garrafa
+                <img
+                    id="garrafa"
+                    src="./imagens/OIP.jpg"
+                     hspace="5px"
+                     alt=" Garrafa térmica"
+                    title="Garrafa Térmica para colocar café"
+          />
+        </li>
+      </ul>
+
+      <p>
+        <strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing
+        <em>elit. Distinctio ratione</em> magni commodi <u>inventore</u> nulla
+        doloremque, suscipit sunt architecto veniam necessitatibus eius.
+        Praesentium assumenda id atque nemo delectus perspiciatis mollitia
+        dolor.
+      </p>
+
+      <h2 class="titulo-lista">Lista Odernada</h2>
+      
+      <ol>
+        <li>segunda</li>
+        <li>terça</li>
+        <li>quarta</li>
+        <li>quinta</li>
+        <li>sexta</li>
+      </ol>
+
+      <h2 class="titulo-lista">Lista não ordenada com sublistas</h2>
+
+      <ul>
+        <li>OQ FAZ</li>
+        <ul>
+          <li>UC1</li>
+        </ul>
+      </ul>
+
+ <hr>
+
+<div class="links">
+  <a id="up" href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
+  target="_blank">Imagens no HTML</a>
+  <hr>
+  <a id="subir" href="#Header">Subir</a>
+</div>
+
+    </main>
+
+    <footer>
+      <p> &#9826 Desenvolvido por Duardin</p>
+    </footer>
+  </body>
+</html>
